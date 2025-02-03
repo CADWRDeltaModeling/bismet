@@ -72,7 +72,7 @@ def prep_mesh_sdist(infile,bnd_shapefile,outdir=".",res=None,
     
     
     import os
-    import gdal
+    #import gdal
     
     if cache_dir is None: cache_dir = outdir
     if not os.path.exists(outdir):
