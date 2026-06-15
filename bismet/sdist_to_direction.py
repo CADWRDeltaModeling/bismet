@@ -139,7 +139,7 @@ def convert_sdist_to_dir(input, output):
     
     fig.tight_layout()
 
-    plt.show()
+    #plt.show()
 
 def make_var_res(dist_file, outfile, low_res, high_res, thr_dist):
     '''
@@ -199,7 +199,7 @@ def make_var_res(dist_file, outfile, low_res, high_res, thr_dist):
     plt.title('grid resolution, m')
     plt.colorbar()
     plt.contour(dist_ras, 0, colors='white')
-    plt.show()
+    #plt.show()
     # write tiff
     write_tiff(outfile, dataset, array2)
 
